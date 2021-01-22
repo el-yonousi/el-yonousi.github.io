@@ -1,0 +1,76 @@
+/* Scroll bar color */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px #ffaa00; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track:hover {
+  width: 20px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffaa00; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffaa00;
+}
+/*-- Text Selection --*/
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: #ffaa00;
+}
+
+::selection {
+  color: #ffffff;
+  background: #ffaa00;
+}
+
+
+html,body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Roboto", sans-serif
+}
+
+.ba-text-color {
+	color: #ffaa00;
+}
+
+.w3-container a{
+	text-decoration-line: none;;
+}
+
+.ba-color {
+	color: white;
+	background-color: #ffaa00;
+}
+.w3-margin-top{
+	 max-width:1400px;
+}
+
+.w3-display-container img{
+	 width:100%;
+}
+
+.w3-myfont {
+	font-weight: bold;
+}
+
+footer i {
+	width: 20px;
+	font-size: 20px !important;
+	padding: 15px;
+}
+
+footer
+{
+	width: 100% !important;
+	margin: auto;
+}
+
