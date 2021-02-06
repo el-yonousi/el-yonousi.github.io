@@ -256,7 +256,8 @@ hr {
 	margin: 20px;
 }
 .services {
-	padding: 20px; 
+	padding: 20px;
+	text-align: justify; 
 }
 .services h4 {
 	padding: 5px;
