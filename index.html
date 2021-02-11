@@ -61,6 +61,15 @@
   <script data-ad-client="ca-pub-3833452700447905" async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+  <meta name="theme-color" content="#ffaa00" />
+  <link rel="manifest" href="manifest.json">
+  <script>
+    //if browser support service worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    };
+  </script>
+
   <!--<meta http-equiv="refresh" content="10">-->
 </head>
 
